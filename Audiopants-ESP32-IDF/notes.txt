@@ -1,0 +1,6 @@
+slope = (output_end - output_start) / (input_end - input_start)
+output = output_start + slope * (input - input_start)
+
+slope = (12 - -50) / (127 - 0)
+slope = 62 / 127 - 0
+output = -50 + .48 * (input - 0)

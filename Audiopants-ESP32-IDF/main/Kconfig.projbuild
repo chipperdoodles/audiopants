@@ -1,0 +1,9 @@
+menu "AudioPants Configuration"
+
+    config A2DP_SINK_NAME
+        string "Broadcast Name"
+        default "esp_speaker"
+        help
+            Broadcast Name for Device.
+
+endmenu
